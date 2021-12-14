@@ -7,7 +7,7 @@ public class Team {
     Animal[] zoo = {new Cat("Murzik"), new Hen("Izzy"), new Hippo("Hippopo")};
     public Animal[] teamAnimal = new Animal[4];
     Random random = new Random();
-    // Формируем команду
+
     public Team(String nameTeam) {
         this.nameTeam = nameTeam;
         for(int i = 0; i < 4; i++){
